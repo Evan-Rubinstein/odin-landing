@@ -1,9 +1,38 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    background-color: #1f2937;
+    padding: 0 20px;
+}
+
+.nav ul {
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+}
+
+.nav ul li  {
+    flex: 1;
+}
+
+.nav ul li a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo {
+    
+    flex: 1;
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
 }
