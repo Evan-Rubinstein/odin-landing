@@ -19,6 +19,7 @@ body {
     display: flex;
     flex: 1;
     list-style-type: none;
+    max-width: 444px;
 }
 
 .nav ul li  {
@@ -47,11 +48,13 @@ body {
     display: flex;
     background-color: #1f2937;
     padding-top: 100px;
+    justify-content: center;
 }
 
 .herotext{
     flex: 1;
     margin: 0 20px;
+    max-width: 450px;
 }
 
 .herotext h1 {
@@ -79,6 +82,7 @@ body {
     flex: 1;
     width: 50px;
     height: auto;
+    max-width: 450px;
 }
 
 .information {
