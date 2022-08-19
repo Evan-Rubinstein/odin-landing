@@ -68,7 +68,7 @@ body {
     font-size: 18px;
 }
 
-.herotext button {
+button {
     background-color: #3882F6;
     border-radius: 10px;
     width: 100px;
@@ -144,10 +144,37 @@ body {
     font-style: italic;
     font-weight: light;
     padding-bottom: 10px;
-    max-width: 940px;
 }
 
 .testimonial p {
     font-weight: bold;
     font-size: 20px;
+}
+
+.callToAction {
+    display: flex;
+    align-content: center;
+    padding: 20px;
+}
+
+.callToAction .box {
+    display: flex;
+    background-color: #3882f6;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 5px;
+    max-width: 860px;
+    justify-content: center;
+    flex: 2;
+    align-content: center;
+}
+
+.callToAction .text {
+    flex: 1;
+    color: #e5e7eb
+}
+
+.callToAction button {
+    flex:1;
+    max-width: 100px;
 }
