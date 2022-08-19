@@ -136,7 +136,9 @@ button {
     background-color: #e5e7eb;
     color: #1f2937;
     padding: 40px 0;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .testimonial h2 {
@@ -144,17 +146,23 @@ button {
     font-style: italic;
     font-weight: light;
     padding-bottom: 10px;
+    width: 860px;
+    flex: 1;
+
 }
 
 .testimonial p {
     font-weight: bold;
     font-size: 20px;
+    flex: 1;
 }
 
 .callToAction {
     display: flex;
     align-content: center;
     padding: 20px;
+    align-content: center;
+    justify-content: center;
 }
 
 .callToAction .box {
@@ -164,9 +172,7 @@ button {
     padding: 25px;
     border-radius: 5px;
     max-width: 860px;
-    justify-content: center;
     flex: 2;
-    align-content: center;
 }
 
 .callToAction .text {
